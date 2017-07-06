@@ -1,3 +1,8 @@
+# 1-06. N-th Number with the Removal of Digit 9
+# Find the N-th number without considering any number containing digit 9
+# like 9, 19, 29, 91, 92, ...
+# e.g. new_number(8) = 8, new_number(9) = 10
+
 def new_nums_bf(N):
     num = 0        
     while N != 0:
